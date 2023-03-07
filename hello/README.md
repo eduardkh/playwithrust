@@ -19,6 +19,12 @@ cargo run
 cargo build
 ```
 
+> build using cargo for production
+
+```bash
+cargo build --release
+```
+
 > build using rustc
 
 ```bash
