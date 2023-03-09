@@ -10,8 +10,12 @@ fn main() {
     println!("m is: {}", m);
     m = 10;
     println!("m is: {}", m);
-    // max values
+    // max values signed integers
     println!("max value of i8 is: {}", std::i8::MAX);
     println!("max value of i32 is: {}", std::i32::MAX);
     println!("max value of i64 is: {}", std::i64::MAX);
+    // max values unsigned integers
+    println!("max value of u8 is: {}", std::u8::MAX);
+    // max values floating point
+    println!("max value of f32 is: {}", std::f32::MAX);
 }
