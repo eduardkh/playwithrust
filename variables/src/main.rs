@@ -34,4 +34,9 @@ fn main() {
         "Octal: {:o}, Hex: {:X}, Binary: {:b}",
         format, format, format
     );
+    // add int and floating point
+    let int_num = 2;
+    let float_num = 3.0;
+    let add_int_float = int_num + float_num as i32;
+    println!("add int and floating point: {}", add_int_float);
 }
