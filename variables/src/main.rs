@@ -21,4 +21,17 @@ fn main() {
     // multiple variables
     let (first_number, second_number) = (1, 2.0);
     println!("multiple variables: {}, {}", first_number, second_number);
+    // large_number
+    let large_number = 1_000_000_000;
+    println!("large number: {}", large_number);
+    // overflow number
+    // let overflow_number : u8 = 256; // this will not run
+    let overflow_number: u8 = 255;
+    println!("overflow number: {}", overflow_number);
+    //  number in different formats
+    let format = 255;
+    println!(
+        "Octal: {:o}, Hex: {:X}, Binary: {:b}",
+        format, format, format
+    );
 }
