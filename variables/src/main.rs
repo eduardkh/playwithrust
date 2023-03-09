@@ -39,4 +39,7 @@ fn main() {
     let float_num = 3.0;
     let add_int_float = int_num + float_num as i32;
     println!("add int and floating point: {}", add_int_float);
+    // constant
+    const  CONSTANT:u32= 2_000_032; // type (:u32) must be provided
+    println!("CONSTANT: {}", CONSTANT);
 }
