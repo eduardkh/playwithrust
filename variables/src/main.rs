@@ -18,4 +18,7 @@ fn main() {
     println!("max value of u8 is: {}", std::u8::MAX);
     // max values floating point
     println!("max value of f32 is: {}", std::f32::MAX);
+    // multiple variables
+    let (first_number, second_number) = (1, 2.0);
+    println!("multiple variables: {}, {}", first_number, second_number);
 }
